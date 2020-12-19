@@ -1,0 +1,35 @@
+Variables:
+    Una variable es como una caja donde pedimos que se guarde un valor para volver a acceder a él más adelante en nuestro programa.
+    Consta de un NOMBRE, un TIPO, y un VALOR, por ejemplo la variable <edad = 19> tiene NOMBRE edad, como TIPO entero (porque es un número entero), y  por VALOR 19.
+    El nombre de la variable le da la referencia a nuestro programa de 'cuál es la caja' a la queremos acceder cuando la llamemos.
+
+Strings:
+    Un string es un tipo de dato, más precisamente texto, o sea una lista o cadena de caracteres.
+    Cualquier texto que se encuentre entre comillas simples (''), o comillas dobles ("") es interpretado como dato del tipo string.
+    Ejemplo:
+        "esto es un string"
+        'esto tambien es un string'
+        esto no es un string porque no está entre comillas
+
+    También es válido que el string esté vacío, o sea "", en ese caso el tipo de dato es string, pero su valor es nulo.
+
+Funciones:
+    Una función es una acción que queremos que se ejecute cada vez que sea llamada; o sea, es un bloque de código que sólo se ejecutará cuando se lo pidamos, y las veces que queramos.
+    Las Funciones pueden recibir valores o no recibirlos, y pueden devolver un resultado o no devolverlos.
+    Los valores o parámetros recibidos por una función se llaman 'argumentos'.
+    Por ejemplo al realizar una cuenta en una calculadora:
+        ingresamos un valor, un operador matemático, y otro valor (12 / 4)
+        la calculadora recibió dos valores (12 y 4), y llama a la función dividir ( / )
+        la función dividir va a procesar los valores recibidos y va a devolver un resultado
+        el resultado de la función (3) se muestra en pantalla 
+
+    Otro ejemplo, una función 'Guardar Partida' va a recibir valores, guardará la partida, pero no devolverá un resultado nuevo.
+
+Declaración if:
+    Muchas veces al programar queremos que una condición se cumpla para que se ejecute parte de nuestro código, para eso se utiliza la sentencia if ('si' condicional en inglés).
+    Si se dá tal condición, se ejecutará el próximo bloque de código, caso contrario ese bloque de código será ignorado.    
+
+Valores Booleanos:
+    Un booleano es un tipo de dato que sirve para guardar valores que solo poseen dos opciones, verdadero o falso, prendido o apagado, activo o inactivo.
+    Por ejemplo, una lámpara solo puede estar prendida o apagada, no posee una tercera opción.
+    También nos sirve para declarar que un hecho ya ocurrió o no.
